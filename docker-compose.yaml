@@ -20,8 +20,7 @@ services:
     image: dpage/pgadmin4:latest
   keycloak:
       # image: quay.io/keycloak/keycloak:latest
-      # image: ternau/tern-keycloak:1.0.1
-      image: ternau/keycloak:15.0.2-1
+      image: ternau/keycloak:latest
       environment:
         DB_VENDOR: POSTGRES
         DB_ADDR: postgres
